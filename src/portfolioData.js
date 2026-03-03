@@ -1,355 +1,238 @@
 // portfolioData.js
-// Complete data structure for both English and French versions
-// Import this file and use it to populate your portfolio components
+// ADNS DataFlow — Bilingual (EN/FR) content
 
 export const portfolioData = {
   en: {
-    // Hero Section
     hero: {
-      title: "AI & ML",
-      titleHighlight: "Engineer",
-      subtitle: "Production AI systems, LLMs, and RAG. 5+ years ML/AI, 8+ years engineering. Built Sidekick, TasteGPT, and Service AI at scale.",
+      brand: "ADNS DataFlow",
+      tagline: "Turn Your Data Into a Growth Engine",
+      services: ["Strategic AI Audit", "Custom AI Agents", "Training & Enablement"],
+      quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS DataFlow: turning AI complexity into concrete, measurable results.",
+      founder: "Axel STRUBEL, Founder",
       cta: {
-        primary: "View Work",
-        secondary: "Get in Touch"
-      },
-      scroll: "Scroll to explore"
+        primary: "Book a Free Audit",
+        secondary: "Discover Services"
+      }
     },
 
-    // Navigation
-    nav: {
-      name: "Axel",
-      links: [
-        { label: "Work", href: "#work" },
-        { label: "About", href: "#about" },
-        { label: "Contact", href: "#contact" }
-      ]
+    about: {
+      title: "Axel STRUBEL — AI & Data Engineer",
+      subtitle: "Profile & Expertise",
+      content: "Graduate of a top French engineering school with 3+ years of intensive Data Science and Artificial Intelligence experience. Through ADNS DataFlow, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
     },
 
-    // Featured Projects Section
-    projects: {
-      title: "Featured Work",
-      subtitle: "Selected projects showcasing ML, infrastructure, and impact",
+    services: {
+      title: "Services",
+      subtitle: "Three focused offerings to move from data to measurable value",
       items: [
         {
           id: 1,
-          title: "Service AI: Ticket Resolution & RAG System",
-          company: "monday.com",
-          impact: "Increased tickets with AI assistance from 10% → 18.3%, improved resolution rate from 20% → 30%",
-          description: "Designed and deployed an end-to-end RAG system over ticket history to generate AI-powered resolutions. Built auto-ingest pipeline generating 15K+ valid tickets/week, performed root-cause analysis on AI failures, and created Service AI Q&A database expanding answer coverage across help center queries.",
-          technologies: ["RAG", "LLM", "LangChain", "Python", "Data Pipelines", "Classification"],
-          metrics: [
-            "15,000+ tickets/week",
-            "78.8% → 46.7% null rate",
-            "60,000+ data points/month"
-          ],
-          link: null
+          title: "AI Audit & Architecture",
+          subtitle: "From raw data to business value",
+          description: "AI integration starts with a clear-eyed assessment of your data maturity and key processes with ADNS DataFlow.",
+          bullets: [
+            "AI Readiness Assessment: identify 3 high-ROI use cases in just 5 days.",
+            "Data Mapping & Valuation: analyse your existing databases to uncover untapped potential.",
+            "Strategic Roadmap: a clear plan for generative AI integration and cost optimisation."
+          ]
         },
         {
           id: 2,
-          title: "Sidekick: monday.com's AI Assistant",
-          company: "monday.com",
-          impact: "Core AI product improvement across board modification tools",
-          description: "Enhanced reliability and capability-awareness logic to reduce hallucinations. Unified Board Expert behavior across all modification tools, optimized prompt engineering to reduce token usage by 40%, improved formatting, and strengthened platform understanding to prevent invalid suggestions.",
-          technologies: ["Prompt Engineering", "LLM Optimization", "Agent Design", "Python"],
-          metrics: [
-            "40% token reduction",
-            "Reduced hallucinations",
-            "Cross-tool unification"
-          ],
-          link: null
+          title: "Custom AI Agents (RAG)",
+          subtitle: "Tailored technical deployment",
+          description: "Deploy custom, secure AI solutions trained specifically on your company's own data.",
+          bullets: [
+            "Internal RAG chatbots deployed in 3 weeks to query your private document bases.",
+            "Process automation: level-1 customer support, HR pre-screening, logistics optimisation.",
+            "Seamless LLM API integration (OpenAI, Anthropic, Mistral) into your existing software stack."
+          ]
         },
         {
           id: 3,
-          title: "TasteGPT: Multi-Agent Food Intelligence",
-          company: "Tastewise",
-          impact: "End-to-end LLM system for food trend analysis and discovery",
-          description: "Built TasteGPT with page/filter routing classifiers and RAG over internal knowledge base. Designed AutoGen multi-agent pipeline for automatic food trend report generation, orchestrating retrieval, analysis, and composition. Implemented ingredients & trend discovery using spaCy NER, and built audience models (gender, chef detection, generational segments).",
-          technologies: ["AutoGen", "RAG", "LangChain", "LLMs", "NLP", "spaCy", "scikit-learn"],
-          metrics: [
-            "Multi-agent pipeline",
-            "Trend discovery",
-            "Audience segmentation"
-          ],
-          link: null
-        },
-        {
-          id: 4,
-          title: "Restaurant Chain Clustering & Entity Matching",
-          company: "Tastewise",
-          impact: "Global system handling 100K+ restaurant entities with multi-signal matching",
-          description: "Designed and productionized restaurant-chain clustering system using parser normalization, multi-signal matching (name/website/phone/logo), and country-level generalization. Built LinkedIn entity matching for chains using multi-feature scoring. Created brand discovery pipelines from noisy external data (Walmart, Open Food Facts) with automated cleaning and deduplication.",
-          technologies: ["Entity Matching", "Clustering", "Data Cleaning", "MongoDB", "Elasticsearch"],
-          metrics: [
-            "100K+ entities",
-            "Multi-country support",
-            "External data integration"
-          ],
-          link: null
-        }
-      ]
-    },
-
-    // Expertise Section
-    expertise: {
-      title: "Expertise",
-      subtitle: "Deep technical knowledge across AI, ML, and production systems",
-      categories: [
-        {
-          category: "AI & Machine Learning",
-          icon: "brain",
-          items: [
-            "RAG Systems & Vector Search",
-            "LLM Fine-tuning & Prompt Engineering",
-            "NLP & Text Classification",
-            "Production ML Deployment"
-          ]
-        },
-        {
-          category: "Data & Infrastructure",
-          icon: "zap",
-          items: [
-            "Data Pipelines & ETL",
-            "ML Model Evaluation & Testing",
-            "A/B Testing & Metrics",
-            "Database Design"
-          ]
-        },
-        {
-          category: "Engineering",
-          icon: "code",
-          items: [
-            "Python (Expert)",
-            "System Design",
-            "API Development",
-            "End-to-End Project Execution"
+          title: "Training & Enablement",
+          subtitle: "Prompt Engineering · GenAI Basics · No-Code Workflows",
+          description: "Three programmes to make your teams fully autonomous with AI.",
+          bullets: [
+            "Prompt Engineering: master the art of querying LLMs for maximum daily productivity.",
+            "GenAI Basics: demystify AI for management to independently spot new innovation opportunities.",
+            "No-Code Workflows: build powerful automations (Make, Zapier) coupled with AI — no code required."
           ]
         }
       ]
     },
 
-    // About/Background Section
-    about: {
-      title: "Background",
-      content: "MSc in Computer Science from IMT Atlantique (French top-10 engineering school). 8+ years software engineering experience, 5+ years in data science and AI. Built production ML systems at monday.com (RAG, LLM agents, Sidekick), Tastewise (TasteGPT, entity matching, audience models), and Fiverr (anomaly detection). Fluent in French and English, conversational Hebrew. Now available for freelance consulting and project work."
+    methodology: {
+      title: "A Proven Iterative Method",
+      subtitle: "From discovery to continuous improvement in four steps",
+      steps: [
+        {
+          number: "01",
+          title: "Discovery",
+          description: "Flash audit, business needs scoping, technical feasibility study, and strict definition of success KPIs."
+        },
+        {
+          number: "02",
+          title: "Prototyping",
+          description: "MVP development in 2 to 3 weeks to test value directly in the field."
+        },
+        {
+          number: "03",
+          title: "Deployment",
+          description: "Secure production release, integration with your information system, and user team training."
+        },
+        {
+          number: "04",
+          title: "Iteration",
+          description: "Performance monitoring, model fine-tuning, and continuous improvement based on real feedback."
+        }
+      ]
     },
 
-    // Contact Section
+    metrics: {
+      title: "Measurable Impact on Productivity",
+      stat: { value: "40%", label: "Average productivity gain on administrative and repetitive tasks." },
+      comparisons: [
+        { task: "Large-scale data analysis", manual: "15 h", withAI: "3 h" },
+        { task: "Document synthesis (RFP)", manual: "8 h", withAI: "1 h" }
+      ],
+      note: "These metrics come from real use cases implemented with our clients. Intelligent automation frees your experts to focus on high-value analysis and decision-making."
+    },
+
     contact: {
-      title: "Let's Work Together",
-      subtitle: "I'm available for consulting, project work, or technical discussions. Let's build something great.",
+      title: "Ready to Accelerate?",
+      subtitle: "Get ahead of your market. Book a free 30-minute flash audit with Axel STRUBEL.",
       buttons: [
-        {
-          label: "Email",
-          href: "mailto:axel.strubel@gmail.com",
-          icon: "mail"
-        },
-        {
-          label: "LinkedIn",
-          href: "https://www.linkedin.com/in/axel-strubel-055815b3/",
-          icon: "linkedin",
-          external: true
-        },
-        {
-          label: "GitHub",
-          href: "https://github.com",
-          icon: "github",
-          external: true
-        }
+        { label: "Book a Flash Audit", href: "https://calendly.com/axel-strubel-adns", external: true, primary: true },
+        { label: "Send an Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]
     },
 
-    // Footer
     footer: {
-      text: "Built with React. Remote - Available Worldwide."
+      text: "ADNS DataFlow © 2025 · Axel Strubel · Remote — France & International"
     }
   },
 
   fr: {
-    // Hero Section
     hero: {
-      title: "Ingénieur IA &",
-      titleHighlight: "ML en Production",
-      subtitle: "Systèmes IA et LLM en production, RAG complexes. 5+ ans ML/IA, 8+ ans engineering. Créateur de Sidekick, TasteGPT et Service AI à l'échelle.",
+      brand: "ADNS DataFlow",
+      tagline: "Transformez la Donnée en Levier de Croissance",
+      services: ["Audit Stratégique IA", "Agents IA Sur-Mesure", "Formation & Acculturation"],
+      quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS DataFlow ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
+      founder: "Axel STRUBEL, Fondateur",
       cta: {
-        primary: "Voir mes Projets",
-        secondary: "Me Contacter"
-      },
-      scroll: "Scroll pour explorer"
+        primary: "Réserver un Audit Gratuit",
+        secondary: "Découvrir les Services"
+      }
     },
 
-    // Navigation
-    nav: {
-      name: "Axel",
-      links: [
-        { label: "Projets", href: "#work" },
-        { label: "À propos", href: "#about" },
-        { label: "Contact", href: "#contact" }
-      ]
+    about: {
+      title: "Axel STRUBEL — Ingénieur IA & Data",
+      subtitle: "Profil & Expertise",
+      content: "Diplômé d'une Grande École d'Ingénieurs avec plus de 3 ans d'expérience intensive en Data Science et Intelligence Artificielle. À travers ADNS DataFlow, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
     },
 
-    // Featured Projects Section
-    projects: {
-      title: "Projets en Vedette",
-      subtitle: "Projets sélectionnés montrant ML, infrastructure et impact",
+    services: {
+      title: "Services",
+      subtitle: "Trois offres ciblées pour passer de la donnée à la valeur mesurable",
       items: [
         {
           id: 1,
-          title: "Service AI : Système de Résolution de Tickets avec RAG",
-          company: "monday.com",
-          impact: "Taux de résolution 55%, réduction des réponses nulles de 78.8% → 46.7%",
-          description: "Conception et déploiement d'un système RAG end-to-end sur l'historique des tickets pour générer des résolutions alimentées par l'IA. Création d'un pipeline auto-ingest générant 15K+ tickets valides/semaine, analyse des causes de défaillances IA, et construction d'une base de données Service AI Q&A.",
-          technologies: ["RAG", "LLM", "LangChain", "Python", "Data Pipelines", "Classification"],
-          metrics: [
-            "15 000+ tickets/semaine",
-            "78.8% → 46.7% taux null",
-            "60 000+ points de données/mois"
-          ],
-          link: null
+          title: "Audit & Architecture IA",
+          subtitle: "De la donnée brute à la valeur métier",
+          description: "L'intégration de l'IA commence par une évaluation lucide de votre maturité data et de vos processus clés avec ADNS DataFlow.",
+          bullets: [
+            "AI Readiness Assessment : identifier 3 cas d'usage ROIstes dans votre entreprise en seulement 5 jours.",
+            "Cartographie & Valorisation : analyser vos bases de données existantes pour en extraire un potentiel inexploité.",
+            "Roadmap Stratégique : une feuille de route claire pour l'intégration de l'IA générative et l'optimisation des coûts."
+          ]
         },
         {
           id: 2,
-          title: "Sidekick : Assistant IA de monday.com",
-          company: "monday.com",
-          impact: "Amélioration critique du produit IA core",
-          description: "Amélioration de la fiabilité et de la logique de sensibilisation aux capacités pour réduire les hallucinations. Unification du comportement Board Expert sur tous les outils de modification, optimisation du prompt engineering pour réduire l'utilisation des tokens de 40%, amélioration du formatage et renforcement de la compréhension de la plateforme.",
-          technologies: ["Prompt Engineering", "LLM Optimization", "Agent Design", "Python"],
-          metrics: [
-            "40% réduction de tokens",
-            "Hallucinations réduites",
-            "Unification multi-outils"
-          ],
-          link: null
+          title: "Développement d'Agents IA (RAG)",
+          subtitle: "Déploiement technique sur-mesure",
+          description: "Déployez des solutions d'Intelligence Artificielle sur-mesure, sécurisées et entraînées spécifiquement sur vos propres données d'entreprise.",
+          bullets: [
+            "Création de Chatbots internes (RAG) déployés en 3 semaines pour interroger vos bases documentaires privées.",
+            "Automatisation des processus chronophages : support client de niveau 1, présélection RH, optimisation logistique.",
+            "Intégration fluide des API LLM (OpenAI, Anthropic, Mistral) dans vos outils logiciels existants."
+          ]
         },
         {
           id: 3,
-          title: "TasteGPT : Système Multi-Agent Intelligence Culinaire",
-          company: "Tastewise",
-          impact: "Système LLM end-to-end pour analyse et découverte de tendances alimentaires",
-          description: "Construction de TasteGPT avec routeurs de pages/filtres et RAG sur base de connaissances interne. Conception d'un pipeline multi-agent AutoGen pour génération automatique de rapports de tendances, orchestrant récupération, analyse et composition. Implémentation de découverte d'ingrédients & tendances via spaCy NER, et construction de modèles d'audience.",
-          technologies: ["AutoGen", "RAG", "LangChain", "LLMs", "NLP", "spaCy", "scikit-learn"],
-          metrics: [
-            "Pipeline multi-agent",
-            "Découverte de tendances",
-            "Segmentation d'audience"
-          ],
-          link: null
-        },
-        {
-          id: 4,
-          title: "Clustering de Chaînes Restaurants & Entity Matching",
-          company: "Tastewise",
-          impact: "Système global traitant 100K+ entités restaurants avec matching multi-signaux",
-          description: "Conception et productionalisation d'un système de clustering de chaînes restaurants utilisant normalisation de parseurs, matching multi-signaux (nom/site/téléphone/logo) et généralisation par pays. Création d'un système de matching LinkedIn pour chaînes utilisant scoring multi-feature. Pipelines de découverte de marques à partir de données externes bruitées (Walmart, Open Food Facts).",
-          technologies: ["Entity Matching", "Clustering", "Data Cleaning", "MongoDB", "Elasticsearch"],
-          metrics: [
-            "100K+ entités",
-            "Support multi-pays",
-            "Intégration données externes"
-          ],
-          link: null
-        }
-      ]
-    },
-
-    // Expertise Section
-    expertise: {
-      title: "Expertise",
-      subtitle: "Connaissance technique approfondie en IA, ML et systèmes production",
-      categories: [
-        {
-          category: "IA & Machine Learning",
-          icon: "brain",
-          items: [
-            "Systèmes RAG & Recherche Vectorielle",
-            "Fine-tuning LLM & Prompt Engineering",
-            "NLP & Classification de Texte",
-            "Déploiement ML en Production"
-          ]
-        },
-        {
-          category: "Data & Infrastructure",
-          icon: "zap",
-          items: [
-            "Pipelines Data & ETL",
-            "Évaluation & Test de Modèles ML",
-            "A/B Testing & Métriques",
-            "Design de Base de Données"
-          ]
-        },
-        {
-          category: "Engineering",
-          icon: "code",
-          items: [
-            "Python (Expert)",
-            "System Design",
-            "Développement API",
-            "Exécution Projet End-to-End"
+          title: "Formation & Acculturation",
+          subtitle: "Prompt Engineering · GenAI Basics · Workflows No-Code",
+          description: "Trois programmes pour rendre vos équipes pleinement autonomes avec l'IA.",
+          bullets: [
+            "Prompt Engineering : maîtriser l'art de requêter les LLM pour maximiser la productivité quotidienne.",
+            "GenAI Basics : démystifier l'IA auprès du management pour identifier de nouvelles opportunités d'innovation.",
+            "Workflows No-Code : créer des automatisations puissantes (Make, Zapier) couplées à l'IA, sans ligne de code."
           ]
         }
       ]
     },
 
-    // About/Background Section
-    about: {
-      title: "Parcours",
-      content: "Ingénieur diplômé de l'IMT Atlantique (top 10 écoles d'ingénierie françaises). 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. Créateur de systèmes ML production chez monday.com (RAG, agents LLM, Sidekick), Tastewise (TasteGPT, entity matching, audience models) et Fiverr (détection d'anomalies). Français natif, anglais courant, allemand intermédiaire. Actuellement disponible en freelance pour missions de consulting et développement de projets."
+    methodology: {
+      title: "Une Méthode Itérative Éprouvée",
+      subtitle: "De la découverte à l'amélioration continue en quatre étapes",
+      steps: [
+        {
+          number: "01",
+          title: "Découverte",
+          description: "Audit flash, cadrage du besoin métier, étude de faisabilité technique et définition stricte des KPIs de succès."
+        },
+        {
+          number: "02",
+          title: "Prototypage",
+          description: "Développement d'un MVP en 2 à 3 semaines pour tester la valeur directement sur le terrain."
+        },
+        {
+          number: "03",
+          title: "Déploiement",
+          description: "Mise en production sécurisée de la solution, intégration au SI, et formation des équipes utilisatrices."
+        },
+        {
+          number: "04",
+          title: "Itération",
+          description: "Monitoring des performances, ajustement des modèles (fine-tuning) et amélioration continue basée sur les retours."
+        }
+      ]
     },
 
-    // Contact Section
+    metrics: {
+      title: "L'Impact Mesurable sur la Productivité",
+      stat: { value: "40%", label: "Gain de productivité moyen constaté sur les tâches administratives et répétitives." },
+      comparisons: [
+        { task: "Analyse de gros volumes de données", manual: "15 h", withAI: "3 h" },
+        { task: "Synthèse de documentations (Appel d'offre)", manual: "8 h", withAI: "1 h" }
+      ],
+      note: "Ces métriques sont tirées de cas d'usage réels implémentés chez nos clients. L'automatisation intelligente libère le temps de vos experts pour le recentrer sur l'analyse à haute valeur ajoutée."
+    },
+
     contact: {
-      title: "Travaillons Ensemble",
-      subtitle: "Je suis disponible pour du consulting, des missions de projet ou des discussions techniques. Construisons quelque chose de formidable.",
+      title: "Prêt à Accélérer ?",
+      subtitle: "Prenez de l'avance sur votre marché. Réservez un audit flash de 30 minutes avec Axel STRUBEL.",
       buttons: [
-        {
-          label: "Email",
-          href: "mailto:axel.strubel@gmail.com",
-          icon: "mail"
-        },
-        {
-          label: "LinkedIn",
-          href: "https://www.linkedin.com/in/axel-strubel-055815b3/",
-          icon: "linkedin",
-          external: true
-        },
-        {
-          label: "GitHub",
-          href: "https://github.com",
-          icon: "github",
-          external: true
-        }
+        { label: "Réserver un Audit Flash", href: "https://calendly.com/axel-strubel-adns", external: true, primary: true },
+        { label: "Envoyer un Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]
     },
 
-    // Footer
     footer: {
-      text: "Built with React. Remote - Disponible Mondialement."
+      text: "ADNS DataFlow © 2025 · Axel Strubel · Remote — France & International"
     }
   }
 };
 
-// Export individual sections for easier access
+// Helpers
 export const getContent = (language = 'en', section = null) => {
   const data = portfolioData[language];
   return section ? data[section] : data;
 };
 
-// Helper function to get projects by language
-export const getProjects = (language = 'en') => {
-  return portfolioData[language].projects.items;
-};
-
-// Helper function to get expertise by language
-export const getExpertise = (language = 'en') => {
-  return portfolioData[language].expertise.categories;
-};
-
-// Helper function to get hero content by language
-export const getHero = (language = 'en') => {
-  return portfolioData[language].hero;
-};
-
-// Helper function to get contact info by language
-export const getContact = (language = 'en') => {
-  return portfolioData[language].contact;
-};
+export const getHero = (language = 'en') => portfolioData[language].hero;
+export const getServices = (language = 'en') => portfolioData[language].services;
+export const getMethodology = (language = 'en') => portfolioData[language].methodology;
+export const getMetrics = (language = 'en') => portfolioData[language].metrics;
+export const getContact = (language = 'en') => portfolioData[language].contact;
