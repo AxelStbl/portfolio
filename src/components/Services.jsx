@@ -13,23 +13,11 @@ export default function Services({ language }) {
           {items.map((service) => (
             <div
               key={service.id}
-              className="p-6 border border-gray-700 rounded-xl bg-gray-900 flex flex-col gap-4"
+              className="p-6 border border-gray-700 rounded-xl bg-gray-900 hover:border-blue-500/50 transition-colors"
             >
-              <div>
-                <h3 className="text-xl font-bold text-white">{service.title}</h3>
-                <p className="text-blue-400 text-sm mt-1">{service.subtitle}</p>
-              </div>
-
+              <div className="text-3xl mb-4">{service.icon}</div>
+              <h3 className="text-lg font-bold text-white mb-3">{service.title}</h3>
               <p className="text-gray-400 text-sm leading-relaxed">{service.description}</p>
-
-              <ul className="space-y-2 mt-auto">
-                {service.bullets.map((bullet, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-gray-300">
-                    <span className="text-blue-400 mt-0.5 shrink-0">→</span>
-                    {bullet}
-                  </li>
-                ))}
-              </ul>
             </div>
           ))}
         </div>

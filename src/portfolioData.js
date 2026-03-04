@@ -6,7 +6,7 @@ export const portfolioData = {
     hero: {
       brand: "ADNS DataFlow",
       tagline: "Turn Your Data Into a Growth Engine",
-      services: ["Strategic AI Audit", "Custom AI Agents", "Training & Enablement"],
+      services: ["AI Chatbots", "Custom AI Agents", "Automations", "AI Audit", "Training", "Web/App Dev"],
       quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS DataFlow: turning AI complexity into concrete, measurable results.",
       founder: "Axel STRUBEL, Founder",
       cta: {
@@ -23,40 +23,43 @@ export const portfolioData = {
 
     services: {
       title: "Services",
-      subtitle: "Three focused offerings to move from data to measurable value",
+      subtitle: "Six offerings to take your business from data to competitive advantage",
       items: [
         {
           id: 1,
-          title: "AI Audit & Architecture",
-          subtitle: "From raw data to business value",
-          description: "AI integration starts with a clear-eyed assessment of your data maturity and key processes with ADNS DataFlow.",
-          bullets: [
-            "AI Readiness Assessment: identify 3 high-ROI use cases in just 5 days.",
-            "Data Mapping & Valuation: analyse your existing databases to uncover untapped potential.",
-            "Strategic Roadmap: a clear plan for generative AI integration and cost optimisation."
-          ]
+          icon: "💬",
+          title: "AI Chatbots",
+          description: "Boost your performance with AI chatbots integrated into your website, WhatsApp or internal tools — handling lead qualification, customer support, and more, 24/7."
         },
         {
           id: 2,
-          title: "Custom AI Agents (RAG)",
-          subtitle: "Tailored technical deployment",
-          description: "Deploy custom, secure AI solutions trained specifically on your company's own data.",
-          bullets: [
-            "Internal RAG chatbots deployed in 3 weeks to query your private document bases.",
-            "Process automation: level-1 customer support, HR pre-screening, logistics optimisation.",
-            "Seamless LLM API integration (OpenAI, Anthropic, Mistral) into your existing software stack."
-          ]
+          icon: "🤖",
+          title: "Custom AI Agents",
+          description: "Tailored AI agents connected to your internal systems, available around the clock to manage your data, automate repetitive tasks, and support your operations continuously."
         },
         {
           id: 3,
+          icon: "⚡",
+          title: "AI Automations",
+          description: "Identify what can be automated to free up time. Using Make, Zapier and LLMs, we build intelligent workflows that eliminate bottlenecks and transform your business processes."
+        },
+        {
+          id: 4,
+          icon: "🔍",
+          title: "AI Audit & Architecture",
+          description: "A clear-eyed assessment of your data maturity: identify your top 3 high-ROI AI use cases in 5 days, map your data assets, and get a strategic roadmap for deployment."
+        },
+        {
+          id: 5,
+          icon: "🎓",
           title: "Training & Enablement",
-          subtitle: "Prompt Engineering · GenAI Basics · No-Code Workflows",
-          description: "Three programmes to make your teams fully autonomous with AI.",
-          bullets: [
-            "Prompt Engineering: master the art of querying LLMs for maximum daily productivity.",
-            "GenAI Basics: demystify AI for management to independently spot new innovation opportunities.",
-            "No-Code Workflows: build powerful automations (Make, Zapier) coupled with AI — no code required."
-          ]
+          description: "Prompt Engineering, GenAI Basics and No-Code Workflows — three programmes to make your teams fully autonomous with AI, from management to operations."
+        },
+        {
+          id: 6,
+          icon: "💻",
+          title: "AI Web & App Development",
+          description: "Build web or mobile applications that embed AI at their core — from internal tools and dashboards to full SaaS products powered by LLMs and your proprietary data."
         }
       ]
     },
@@ -117,7 +120,7 @@ export const portfolioData = {
     hero: {
       brand: "ADNS DataFlow",
       tagline: "Transformez la Donnée en Levier de Croissance",
-      services: ["Audit Stratégique IA", "Agents IA Sur-Mesure", "Formation & Acculturation"],
+      services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement"],
       quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS DataFlow ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
       founder: "Axel STRUBEL, Fondateur",
       cta: {
@@ -134,40 +137,43 @@ export const portfolioData = {
 
     services: {
       title: "Services",
-      subtitle: "Trois offres ciblées pour passer de la donnée à la valeur mesurable",
+      subtitle: "Six offres pour passer de la donnée à l'avantage concurrentiel",
       items: [
         {
           id: 1,
-          title: "Audit & Architecture IA",
-          subtitle: "De la donnée brute à la valeur métier",
-          description: "L'intégration de l'IA commence par une évaluation lucide de votre maturité data et de vos processus clés avec ADNS DataFlow.",
-          bullets: [
-            "AI Readiness Assessment : identifier 3 cas d'usage ROIstes dans votre entreprise en seulement 5 jours.",
-            "Cartographie & Valorisation : analyser vos bases de données existantes pour en extraire un potentiel inexploité.",
-            "Roadmap Stratégique : une feuille de route claire pour l'intégration de l'IA générative et l'optimisation des coûts."
-          ]
+          icon: "💬",
+          title: "ChatBots IA",
+          description: "Boostez vos performances avec des chatbots IA intégrés à votre site, WhatsApp ou vos outils internes — gestion des leads, support client et qualification de prospects, 24h/24."
         },
         {
           id: 2,
-          title: "Développement d'Agents IA (RAG)",
-          subtitle: "Déploiement technique sur-mesure",
-          description: "Déployez des solutions d'Intelligence Artificielle sur-mesure, sécurisées et entraînées spécifiquement sur vos propres données d'entreprise.",
-          bullets: [
-            "Création de Chatbots internes (RAG) déployés en 3 semaines pour interroger vos bases documentaires privées.",
-            "Automatisation des processus chronophages : support client de niveau 1, présélection RH, optimisation logistique.",
-            "Intégration fluide des API LLM (OpenAI, Anthropic, Mistral) dans vos outils logiciels existants."
-          ]
+          icon: "🤖",
+          title: "Agents IA Sur-Mesure",
+          description: "Des agents IA connectés à vos systèmes internes, disponibles 24/7 pour piloter vos données, automatiser les tâches répétitives et soutenir vos opérations en continu."
         },
         {
           id: 3,
+          icon: "⚡",
+          title: "Automatisations IA",
+          description: "Identifions ce qui peut être automatisé pour libérer du temps. Grâce à Make, Zapier et les LLM, nous construisons des workflows intelligents qui transforment vos processus métier."
+        },
+        {
+          id: 4,
+          icon: "🔍",
+          title: "Audit & Architecture IA",
+          description: "Évaluation lucide de votre maturité data : identifier 3 cas d'usage ROIstes en 5 jours, cartographier vos actifs data et obtenir une roadmap stratégique pour le déploiement IA."
+        },
+        {
+          id: 5,
+          icon: "🎓",
           title: "Formation & Acculturation",
-          subtitle: "Prompt Engineering · GenAI Basics · Workflows No-Code",
-          description: "Trois programmes pour rendre vos équipes pleinement autonomes avec l'IA.",
-          bullets: [
-            "Prompt Engineering : maîtriser l'art de requêter les LLM pour maximiser la productivité quotidienne.",
-            "GenAI Basics : démystifier l'IA auprès du management pour identifier de nouvelles opportunités d'innovation.",
-            "Workflows No-Code : créer des automatisations puissantes (Make, Zapier) couplées à l'IA, sans ligne de code."
-          ]
+          description: "Prompt Engineering, GenAI Basics et Workflows No-Code — trois programmes pour rendre vos équipes pleinement autonomes avec l'IA, du management jusqu'aux opérations."
+        },
+        {
+          id: 6,
+          icon: "💻",
+          title: "Développement Web/App IA",
+          description: "Créez des applications web ou mobiles intégrant l'IA en leur cœur — de l'outil interne au SaaS complet propulsé par des LLM entraînés sur vos données propriétaires."
         }
       ]
     },
