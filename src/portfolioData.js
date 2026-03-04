@@ -18,7 +18,7 @@ export const portfolioData = {
     about: {
       title: "Axel STRUBEL — AI & Data Engineer",
       subtitle: "Profile & Expertise",
-      content: "Graduate of a top French engineering school with 3+ years of intensive Data Science and Artificial Intelligence experience. Through ADNS DataFlow, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
+      content: "MSc in Computer Science from IMT Atlantique (French top-10 engineering school). 8+ years software engineering experience, 5+ years in data science and AI. Through ADNS DataFlow, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
     },
 
     services: {
@@ -132,7 +132,7 @@ export const portfolioData = {
     about: {
       title: "Axel STRUBEL — Ingénieur IA & Data",
       subtitle: "Profil & Expertise",
-      content: "Diplômé d'une Grande École d'Ingénieurs avec plus de 3 ans d'expérience intensive en Data Science et Intelligence Artificielle. À travers ADNS DataFlow, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
+      content: "Ingénieur diplômé de l'IMT Atlantique (top 10 des écoles d'ingénieurs françaises). 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS DataFlow, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
     },
 
     services: {
