@@ -119,7 +119,7 @@ export const portfolioData = {
   fr: {
     hero: {
       brand: "ADNS Intelligence",
-      tagline: "Transformez la Donnée en Levier de Croissance",
+      tagline: "Transformez la donnée en levier de croissance",
       services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement"],
       quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS Intelligence ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
       founder: "Axel STRUBEL, Fondateur",
@@ -179,7 +179,7 @@ export const portfolioData = {
     },
 
     methodology: {
-      title: "Une Méthode Itérative Éprouvée",
+      title: "Une méthode itérative éprouvée",
       subtitle: "De la découverte à l'amélioration continue en quatre étapes",
       steps: [
         {
@@ -206,7 +206,7 @@ export const portfolioData = {
     },
 
     metrics: {
-      title: "L'Impact Mesurable sur la Productivité",
+      title: "L'impact mesurable sur la productivité",
       stat: { value: "40%", label: "Gain de productivité moyen constaté sur les tâches administratives et répétitives." },
       comparisons: [
         { task: "Analyse de gros volumes de données", manual: "15 h", withAI: "3 h" },
