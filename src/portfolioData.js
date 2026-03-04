@@ -107,7 +107,20 @@ export const portfolioData = {
       buttons: [
         { label: "Book a Flash Audit", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
         { label: "Send an Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
+      ]
+    },
+
+    faq: {
+      title: "Frequently Asked Questions",
+      items: [
+        { q: "What are your rates?", a: "Pricing is project-based. Book a free 30-min flash audit so we can scope your needs together." },
+        { q: "Do you work remotely?", a: "Yes, 100% remote. I work with clients across France and internationally, with regular video check-ins." },
+        { q: "How quickly can you deliver?", a: "An MVP is deliverable in 2 to 3 weeks. The AI Readiness Assessment takes 5 days." },
+        { q: "Which AI models do you use?", a: "OpenAI (GPT-4o), Anthropic (Claude), Mistral — chosen based on your security requirements, budget and use case." },
+        { q: "Is my data secure?", a: "Yes. Solutions are deployed on your infrastructure or private cloud. Your data never leaves your environment." },
+        { q: "Do I need an internal tech team?", a: "No. I work with both technical and non-technical teams, and provide all the training needed for adoption." }
       ]
     },
 
@@ -221,7 +234,20 @@ export const portfolioData = {
       buttons: [
         { label: "Réserver un Audit Flash", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
         { label: "Envoyer un Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
+      ]
+    },
+
+    faq: {
+      title: "Questions fréquentes",
+      items: [
+        { q: "Quel est le tarif de vos prestations ?", a: "Les tarifs sont établis sur devis selon le périmètre du projet. Réservez un audit flash gratuit de 30 min pour qu'on cadre ensemble votre besoin." },
+        { q: "Travaillez-vous en remote ?", a: "Oui, 100% remote. J'accompagne des clients en France et à l'international, avec des points réguliers en visio." },
+        { q: "Quel délai pour un premier livrable ?", a: "Un MVP est livrable en 2 à 3 semaines. L'audit IA (AI Readiness Assessment) est réalisé en 5 jours." },
+        { q: "Quels modèles IA utilisez-vous ?", a: "OpenAI (GPT-4o), Anthropic (Claude), Mistral — choisis selon vos contraintes de sécurité, budget et cas d'usage." },
+        { q: "Mes données sont-elles sécurisées ?", a: "Oui. Les solutions sont déployées sur votre infrastructure ou en cloud privé. Vos données ne quittent jamais votre environnement." },
+        { q: "Faut-il une équipe technique en interne ?", a: "Non. J'accompagne aussi bien les équipes techniques que non-techniques, et fournis la formation nécessaire à l'adoption." }
       ]
     },
 
@@ -242,3 +268,4 @@ export const getServices = (language = 'en') => portfolioData[language].services
 export const getMethodology = (language = 'en') => portfolioData[language].methodology;
 export const getMetrics = (language = 'en') => portfolioData[language].metrics;
 export const getContact = (language = 'en') => portfolioData[language].contact;
+export const getFaq = (language = 'en') => portfolioData[language].faq;
