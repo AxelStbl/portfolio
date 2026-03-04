@@ -9,7 +9,7 @@ export default function Services({ language }) {
         <h2 className="text-4xl font-bold text-white mb-2">{title}</h2>
         <p className="text-gray-400 mb-12">{subtitle}</p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {items.map((service) => (
             <div
               key={service.id}

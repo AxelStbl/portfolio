@@ -6,7 +6,7 @@ export const portfolioData = {
     hero: {
       brand: "ADNS Intelligence",
       tagline: "Turn Your Data Into a Growth Engine",
-      services: ["AI Chatbots", "Custom AI Agents", "Automations", "AI Audit", "Training", "Web/App Dev"],
+      services: ["AI Chatbots", "Custom AI Agents", "Automations", "AI Audit", "Training", "Web/App Dev", "AI Cold Outreach", "Monthly Retainer"],
       quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS Intelligence: turning AI complexity into concrete, measurable results.",
       founder: "Axel STRUBEL, Founder",
       cta: {
@@ -23,7 +23,7 @@ export const portfolioData = {
 
     services: {
       title: "Services",
-      subtitle: "Six offerings to take your business from data to competitive advantage",
+      subtitle: "Eight offerings to take your business from data to competitive advantage",
       items: [
         {
           id: 1,
@@ -60,6 +60,18 @@ export const portfolioData = {
           icon: "💻",
           title: "AI Web & App Development",
           description: "Build web or mobile applications that embed AI at their core — from internal tools and dashboards to full SaaS products powered by LLMs and your proprietary data."
+        },
+        {
+          id: 7,
+          icon: "📨",
+          title: "AI Cold Outreach",
+          description: "Build automated, AI-powered prospecting sequences for LinkedIn and email. Identify ideal prospects, craft personalised messages at scale, and turn cold leads into booked calls."
+        },
+        {
+          id: 8,
+          icon: "🔄",
+          title: "Monthly Retainer",
+          description: "An ongoing partnership for continuous AI optimisation — monthly monitoring, model fine-tuning, new features and priority support so your AI solutions keep improving over time."
         }
       ]
     },
@@ -133,7 +145,7 @@ export const portfolioData = {
     hero: {
       brand: "ADNS Intelligence",
       tagline: "Transformez la donnée en levier de croissance",
-      services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement"],
+      services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement", "Prospection IA", "Accompagnement mensuel"],
       quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS Intelligence ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
       founder: "Axel STRUBEL, Fondateur",
       cta: {
@@ -150,7 +162,7 @@ export const portfolioData = {
 
     services: {
       title: "Services",
-      subtitle: "Six offres pour passer de la donnée à l'avantage concurrentiel",
+      subtitle: "Huit offres pour passer de la donnée à l'avantage concurrentiel",
       items: [
         {
           id: 1,
@@ -187,6 +199,18 @@ export const portfolioData = {
           icon: "💻",
           title: "Développement Web/App IA",
           description: "Créez des applications web ou mobiles intégrant l'IA en leur cœur — de l'outil interne au SaaS complet propulsé par des LLM entraînés sur vos données propriétaires."
+        },
+        {
+          id: 7,
+          icon: "📨",
+          title: "Prospection IA automatisée",
+          description: "Construisez des séquences de prospection automatisées par IA sur LinkedIn et email. Identifiez vos prospects idéaux, personnalisez à grande échelle et transformez vos leads en appels qualifiés."
+        },
+        {
+          id: 8,
+          icon: "🔄",
+          title: "Accompagnement mensuel",
+          description: "Un partenariat continu pour optimiser vos solutions IA dans le temps. Monitoring mensuel, ajustements des modèles, nouvelles fonctionnalités et support prioritaire inclus."
         }
       ]
     },
