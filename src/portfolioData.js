@@ -1,13 +1,13 @@
 // portfolioData.js
-// ADNS DataFlow — Bilingual (EN/FR) content
+// ADNS Intelligence — Bilingual (EN/FR) content
 
 export const portfolioData = {
   en: {
     hero: {
-      brand: "ADNS DataFlow",
+      brand: "ADNS Intelligence",
       tagline: "Turn Your Data Into a Growth Engine",
       services: ["AI Chatbots", "Custom AI Agents", "Automations", "AI Audit", "Training", "Web/App Dev"],
-      quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS DataFlow: turning AI complexity into concrete, measurable results.",
+      quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS Intelligence: turning AI complexity into concrete, measurable results.",
       founder: "Axel STRUBEL, Founder",
       cta: {
         primary: "Book a Free Audit",
@@ -18,7 +18,7 @@ export const portfolioData = {
     about: {
       title: "Axel STRUBEL — AI & Data Engineer",
       subtitle: "Profile & Expertise",
-      content: "MSc in Computer Science from IMT Atlantique (French top-10 engineering school). 8+ years software engineering experience, 5+ years in data science and AI. Through ADNS DataFlow, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
+      content: "MSc in Computer Science from IMT Atlantique (French top-10 engineering school). 8+ years software engineering experience, 5+ years in data science and AI. Through ADNS Intelligence, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
     },
 
     services: {
@@ -112,16 +112,16 @@ export const portfolioData = {
     },
 
     footer: {
-      text: "ADNS DataFlow © 2025 · Axel Strubel · Remote — France & International"
+      text: "ADNS Intelligence © 2025 · Axel Strubel · Remote — France & International"
     }
   },
 
   fr: {
     hero: {
-      brand: "ADNS DataFlow",
+      brand: "ADNS Intelligence",
       tagline: "Transformez la Donnée en Levier de Croissance",
       services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement"],
-      quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS DataFlow ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
+      quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS Intelligence ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
       founder: "Axel STRUBEL, Fondateur",
       cta: {
         primary: "Réserver un Audit Gratuit",
@@ -132,7 +132,7 @@ export const portfolioData = {
     about: {
       title: "Axel STRUBEL — Ingénieur IA & Data",
       subtitle: "Profil & Expertise",
-      content: "Ingénieur diplômé de l'IMT Atlantique (top 10 des écoles d'ingénieurs françaises). 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS DataFlow, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
+      content: "Ingénieur diplômé de l'IMT Atlantique (top 10 des écoles d'ingénieurs françaises). 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS Intelligence, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
     },
 
     services: {
@@ -226,7 +226,7 @@ export const portfolioData = {
     },
 
     footer: {
-      text: "ADNS DataFlow © 2025 · Axel Strubel · Remote — France & International"
+      text: "ADNS Intelligence © 2025 · Axel Strubel · Remote — France & International"
     }
   }
 };
