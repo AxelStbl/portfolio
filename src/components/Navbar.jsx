@@ -38,8 +38,8 @@ export default function Navbar({ language, setLanguage }) {
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Brand */}
-        <a href="#" className="text-white font-bold text-lg tracking-tight">
-          ADNS <span className="text-blue-400">Intelligence</span>
+        <a href="#">
+          <img src="/adns-logo.png" alt="ADNS Intelligence" className="h-10 w-auto" />
         </a>
 
         {/* Desktop links */}
