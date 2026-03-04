@@ -4,7 +4,7 @@ export default function Hero({ language }) {
   const hero = getHero(language);
 
   return (
-    <header className="min-h-screen flex items-center justify-center px-6 bg-gray-950">
+    <header className="min-h-screen flex items-center justify-center px-6 bg-gray-950 pt-16">
       <div className="max-w-4xl w-full text-center">
         {/* Brand */}
         <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-4">
@@ -25,11 +25,10 @@ export default function Hero({ language }) {
           ))}
         </div>
 
-        {/* Quote */}
-        <blockquote className="max-w-2xl mx-auto text-gray-400 italic mb-2 leading-relaxed">
+        {/* Quote — no name attached */}
+        <blockquote className="max-w-2xl mx-auto text-gray-400 italic mb-10 leading-relaxed">
           "{hero.quote}"
         </blockquote>
-        <p className="text-blue-400 text-sm font-medium mb-10">— {hero.founder}</p>
 
         {/* CTAs */}
         <div className="flex flex-wrap gap-4 justify-center">

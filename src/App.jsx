@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import LanguageToggle from './components/LanguageToggle';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Methodology from './components/Methodology';
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="bg-gray-950 text-white min-h-screen">
-      <LanguageToggle language={language} setLanguage={setLanguage} />
+      <Navbar language={language} setLanguage={setLanguage} />
       <Hero language={language} />
       <Services language={language} />
       <Methodology language={language} />
