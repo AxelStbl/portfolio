@@ -105,7 +105,7 @@ export const portfolioData = {
       title: "Ready to Accelerate?",
       subtitle: "Get ahead of your market. Book a free 30-minute flash audit with Axel STRUBEL.",
       buttons: [
-        { label: "Book a Flash Audit", href: "https://calendly.com/axel-strubel-adns", external: true, primary: true },
+        { label: "Book a Flash Audit", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
         { label: "Send an Email", href: "mailto:axel.strubel@gmail.com", external: false },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]
@@ -219,7 +219,7 @@ export const portfolioData = {
       title: "Prêt à Accélérer ?",
       subtitle: "Prenez de l'avance sur votre marché. Réservez un audit flash de 30 minutes avec Axel STRUBEL.",
       buttons: [
-        { label: "Réserver un Audit Flash", href: "https://calendly.com/axel-strubel-adns", external: true, primary: true },
+        { label: "Réserver un Audit Flash", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
         { label: "Envoyer un Email", href: "mailto:axel.strubel@gmail.com", external: false },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]

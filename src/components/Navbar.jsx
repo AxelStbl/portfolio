@@ -79,7 +79,7 @@ export default function Navbar({ language, setLanguage }) {
 
           {/* CTA */}
           <a
-            href="https://calendly.com/axel-strubel-adns"
+            href="https://calendly.com/adns-intelligence"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg transition-colors"
@@ -120,7 +120,7 @@ export default function Navbar({ language, setLanguage }) {
             <button onClick={() => setLanguage('en')} className={`text-xs px-3 py-1.5 rounded border border-gray-700 ${language === 'en' ? 'text-white bg-blue-500 border-blue-500' : 'text-gray-400'}`}>EN</button>
           </div>
           <a
-            href="https://calendly.com/axel-strubel-adns"
+            href="https://calendly.com/adns-intelligence"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full text-center px-4 py-2 bg-blue-500 text-white text-sm font-semibold rounded-lg"

@@ -33,7 +33,7 @@ export default function Hero({ language }) {
         {/* CTAs */}
         <div className="flex flex-wrap gap-4 justify-center">
           <a
-            href="https://calendly.com/axel-strubel-adns"
+            href="https://calendly.com/adns-intelligence"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-colors"
