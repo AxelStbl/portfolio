@@ -132,7 +132,7 @@ export const portfolioData = {
     about: {
       title: "Axel STRUBEL — Ingénieur IA & Data",
       subtitle: "Profil & Expertise",
-      content: "Ingénieur diplômé de l'IMT Atlantique (top 10 des écoles d'ingénieurs françaises). 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS Intelligence, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
+      content: "Ingénieur diplômé de l'IMT Atlantique. 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS Intelligence, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
     },
 
     services: {
