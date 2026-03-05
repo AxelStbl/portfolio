@@ -26,6 +26,71 @@
     <meta name="twitter:title" content="ADNS Intelligence — Ingénieur IA Freelance" />
     <meta name="twitter:description" content="Chatbots IA, agents sur-mesure, automatisations et audit IA. Audit flash gratuit de 30 min." />
     <meta name="twitter:image" content="https://adnsintelligence.com/adns-logo.png" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://adnsintelligence.com/#person",
+          "name": "Axel Strubel",
+          "url": "https://adnsintelligence.com",
+          "jobTitle": "Ingénieur IA Freelance",
+          "description": "Ingénieur IA freelance spécialisé en chatbots, agents IA, automatisations et audit IA. Diplômé de l'IMT Atlantique.",
+          "sameAs": [
+            "https://www.linkedin.com/in/axel-strubel-055815b3/",
+            "https://github.com/AxelStbl"
+          ],
+          "worksFor": {
+            "@id": "https://adnsintelligence.com/#organization"
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://adnsintelligence.com/#organization",
+          "name": "ADNS Intelligence",
+          "url": "https://adnsintelligence.com",
+          "logo": "https://adnsintelligence.com/adns-logo.png",
+          "image": "https://adnsintelligence.com/adns-logo.png",
+          "description": "Services d'ingénierie IA pour entreprises : chatbots, agents IA sur-mesure, automatisations, audit IA, formation et développement d'applications IA.",
+          "founder": { "@id": "https://adnsintelligence.com/#person" },
+          "areaServed": ["FR", "IL", "Worldwide"],
+          "availableLanguage": ["French", "English"],
+          "priceRange": "$$",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "axel.strubel@gmail.com",
+            "availableLanguage": ["French", "English"]
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services IA",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "ChatBots IA" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Agents IA sur-mesure" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automatisations IA" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Audit & Architecture IA" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Formation & Acculturation IA" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Développement Web/App IA" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prospection IA automatisée" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Accompagnement mensuel" } }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://adnsintelligence.com/#website",
+          "url": "https://adnsintelligence.com",
+          "name": "ADNS Intelligence",
+          "description": "Ingénieur IA freelance — Chatbots, agents IA, automatisations et audit IA.",
+          "publisher": { "@id": "https://adnsintelligence.com/#organization" },
+          "inLanguage": ["fr", "en"]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
