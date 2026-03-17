@@ -8,7 +8,7 @@ export const portfolioData = {
       tagline: "Turn Your Data Into a Growth Engine",
       services: ["AI Chatbots", "Custom AI Agents", "Automations", "AI Audit", "Training", "Web/App Dev", "AI Cold Outreach", "Monthly Retainer"],
       quote: "The market is full of tools but short on profiles who can connect technology to business ROI. My approach at ADNS Intelligence: turning AI complexity into concrete, measurable results.",
-      founder: "Axel STRUBEL, Founder",
+      founder: "ADNS Intelligence",
       cta: {
         primary: "Book a Free Audit",
         secondary: "Discover Services"
@@ -16,7 +16,7 @@ export const portfolioData = {
     },
 
     about: {
-      title: "Axel STRUBEL — AI & Data Engineer",
+      title: "ADNS Intelligence — AI & Data Engineer",
       subtitle: "Profile & Expertise",
       content: "MSc in Computer Science from IMT Atlantique (French top-10 engineering school). 8+ years software engineering experience, 5+ years in data science and AI. Through ADNS Intelligence, I don't just install algorithms — I design integrated solutions that address your real business challenges. I support clients (France & International) from strategy to production deployment. My priority: fast ROI, smooth team adoption, and technology you truly own."
     },
@@ -115,10 +115,10 @@ export const portfolioData = {
 
     contact: {
       title: "Ready to Accelerate?",
-      subtitle: "Get ahead of your market. Book a free 30-minute flash audit with Axel STRUBEL.",
+      subtitle: "Get ahead of your market. Book a free 30-minute flash audit.",
       buttons: [
         { label: "Book a Flash Audit", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
-        { label: "Send an Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "Send an Email", href: "mailto:adnsintelligence@gmail.com", external: false },
         { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]
@@ -137,7 +137,7 @@ export const portfolioData = {
     },
 
     footer: {
-      text: "ADNS Intelligence © 2025 · Axel Strubel · Remote — France & International"
+      text: "ADNS Intelligence © 2025 · Remote — France & International"
     }
   },
 
@@ -147,7 +147,7 @@ export const portfolioData = {
       tagline: "Transformez la donnée en levier de croissance",
       services: ["ChatBots IA", "Agents IA", "Automatisations", "Audit IA", "Formation", "Développement", "Prospection IA", "Accompagnement mensuel"],
       quote: "Le marché regorge d'outils, mais manque de profils capables de lier technologie et ROI métier. Mon approche chez ADNS Intelligence ? Transformer la complexité de l'IA en résultats concrets et mesurables.",
-      founder: "Axel STRUBEL, Fondateur",
+      founder: "ADNS Intelligence",
       cta: {
         primary: "Réserver un Audit Gratuit",
         secondary: "Découvrir les Services"
@@ -155,7 +155,7 @@ export const portfolioData = {
     },
 
     about: {
-      title: "Axel STRUBEL — Ingénieur IA & Data",
+      title: "ADNS Intelligence — Ingénieur IA & Data",
       subtitle: "Profil & Expertise",
       content: "Ingénieur diplômé de l'IMT Atlantique. 8+ ans d'expérience en software engineering, 5+ ans en data science et IA. À travers ADNS Intelligence, je n'installe pas seulement des algorithmes, je conçois des solutions intégrées qui répondent à vos véritables enjeux business. J'accompagne mes clients (France & International) de la stratégie jusqu'au déploiement en production. Ma priorité : un ROI rapide, une adoption fluide par vos équipes, et une technologie maîtrisée."
     },
@@ -254,10 +254,10 @@ export const portfolioData = {
 
     contact: {
       title: "Prêt à Accélérer ?",
-      subtitle: "Prenez de l'avance sur votre marché. Réservez un audit flash de 30 minutes avec Axel STRUBEL.",
+      subtitle: "Prenez de l'avance sur votre marché. Réservez un audit flash de 30 minutes.",
       buttons: [
         { label: "Réserver un Audit Flash", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
-        { label: "Envoyer un Email", href: "mailto:axel.strubel@gmail.com", external: false },
+        { label: "Envoyer un Email", href: "mailto:adnsintelligence@gmail.com", external: false },
         { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
         { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
       ]
@@ -276,7 +276,7 @@ export const portfolioData = {
     },
 
     footer: {
-      text: "ADNS Intelligence © 2025 · Axel Strubel · Remote — France & International"
+      text: "ADNS Intelligence © 2025 · Remote — France & International"
     }
   }
 };
