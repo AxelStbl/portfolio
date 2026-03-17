@@ -118,9 +118,7 @@ export const portfolioData = {
       subtitle: "Get ahead of your market. Book a free 30-minute flash audit.",
       buttons: [
         { label: "Book a Flash Audit", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
-        { label: "Send an Email", href: "mailto:adnsintelligence@gmail.com", external: false },
-        { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
-        { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
+        { label: "Send an Email", href: "mailto:adnsintelligence@gmail.com", external: false }
       ]
     },
 
@@ -257,9 +255,7 @@ export const portfolioData = {
       subtitle: "Prenez de l'avance sur votre marché. Réservez un audit flash de 30 minutes.",
       buttons: [
         { label: "Réserver un Audit Flash", href: "https://calendly.com/adns-intelligence", external: true, primary: true },
-        { label: "Envoyer un Email", href: "mailto:adnsintelligence@gmail.com", external: false },
-        { label: "LinkedIn", href: "https://www.linkedin.com/in/axel-strubel-055815b3/", external: true },
-        { label: "GitHub", href: "https://github.com/AxelStbl", external: true }
+        { label: "Envoyer un Email", href: "mailto:adnsintelligence@gmail.com", external: false }
       ]
     },
 
