@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
-import { getServices } from '../portfolioData';
 
 const sectionLinks = {
   en: [
+    { label: 'Services', href: '#services' },
     { label: 'Method', href: '#method' },
     { label: 'Impact', href: '#metrics' },
     { label: 'FAQ', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ],
   fr: [
+    { label: 'Services', href: '#services' },
     { label: 'Méthode', href: '#method' },
     { label: 'Impact', href: '#metrics' },
     { label: 'FAQ', href: '#faq' },
@@ -25,15 +26,7 @@ export default function Navbar({ language, setLanguage }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const services = getServices(language);
-  // Build service nav links from portfolioData
-  const serviceLinks = services.items.map((item) => ({
-    label: item.title,
-    href: '#services',
-  }));
-
-  // Combine: service links first, then section links
-  const allLinks = [...serviceLinks, ...sectionLinks[language]];
+  const allLinks = sectionLinks[language];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
