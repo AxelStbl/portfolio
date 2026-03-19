@@ -6,19 +6,19 @@ export default function FAQ({ language }) {
   const [open, setOpen] = useState(null);
 
   return (
-    <section className="py-24 px-6 bg-gray-950">
+    <section id="faq" className="py-24 px-6 bg-gray-950">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold text-white mb-12">{title}</h2>
 
         <div className="space-y-3">
           {items.map((item, i) => (
-            <div key={i} className="border border-gray-700 rounded-xl overflow-hidden">
+            <div key={i} className="border border-gray-800 rounded-xl overflow-hidden bg-gray-900/30">
               <button
                 onClick={() => setOpen(open === i ? null : i)}
-                className="w-full flex justify-between items-center px-6 py-4 text-left hover:bg-gray-900 transition-colors"
+                className="w-full flex justify-between items-center px-6 py-4 text-left hover:bg-gray-900/50 transition-colors"
               >
                 <span className="text-white font-medium">{item.q}</span>
-                <span className={`text-blue-400 text-xl transition-transform duration-200 ${open === i ? 'rotate-45' : ''}`}>
+                <span className={`text-blue-400 text-xl transition-transform duration-200 shrink-0 ml-4 ${open === i ? 'rotate-45' : ''}`}>
                   +
                 </span>
               </button>

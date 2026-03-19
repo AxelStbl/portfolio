@@ -1,16 +1,17 @@
 import { useState, useEffect } from 'react';
+import { getServices } from '../portfolioData';
 
-const navLinks = {
+const sectionLinks = {
   en: [
-    { label: 'Services', href: '#services' },
     { label: 'Method', href: '#method' },
-    { label: 'About', href: '#about' },
+    { label: 'Impact', href: '#metrics' },
+    { label: 'FAQ', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ],
   fr: [
-    { label: 'Services', href: '#services' },
     { label: 'Méthode', href: '#method' },
-    { label: 'À propos', href: '#about' },
+    { label: 'Impact', href: '#metrics' },
+    { label: 'FAQ', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ],
 };
@@ -24,6 +25,16 @@ export default function Navbar({ language, setLanguage }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const services = getServices(language);
+  // Build service nav links from portfolioData
+  const serviceLinks = services.items.map((item) => ({
+    label: item.title,
+    href: '#services',
+  }));
+
+  // Combine: service links first, then section links
+  const allLinks = [...serviceLinks, ...sectionLinks[language]];
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener('scroll', onScroll);
@@ -36,19 +47,19 @@ export default function Navbar({ language, setLanguage }) {
         scrolled ? 'bg-gray-950/95 backdrop-blur border-b border-gray-800' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Brand */}
-        <a href="#">
-          <img src="/adns-logo.png" alt="ADNS Intelligence" className="h-14 w-auto" />
+        <a href="#" className="shrink-0">
+          <img src="/adns-logo.png" alt="ADNS Intelligence" className="h-12 w-auto" />
         </a>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-6">
-          {navLinks[language].map((link) => (
+        <div className="hidden lg:flex items-center gap-1 overflow-x-auto">
+          {allLinks.map((link, i) => (
             <a
-              key={link.href}
+              key={`${link.label}-${i}`}
               href={link.href}
-              className="text-sm text-gray-400 hover:text-white transition-colors"
+              className="text-xs text-gray-400 hover:text-white transition-colors px-2.5 py-1.5 rounded-md hover:bg-white/5 whitespace-nowrap"
             >
               {link.label}
             </a>
@@ -56,8 +67,7 @@ export default function Navbar({ language, setLanguage }) {
         </div>
 
         {/* Right side: lang toggle + CTA */}
-        <div className="hidden md:flex items-center gap-3">
-          {/* Language toggle */}
+        <div className="hidden lg:flex items-center gap-3 shrink-0">
           <div className="flex text-xs rounded-lg overflow-hidden border border-gray-700">
             <button
               onClick={() => setLanguage('fr')}
@@ -77,7 +87,6 @@ export default function Navbar({ language, setLanguage }) {
             </button>
           </div>
 
-          {/* CTA */}
           <a
             href="https://calendly.com/adns-intelligence"
             target="_blank"
@@ -90,7 +99,7 @@ export default function Navbar({ language, setLanguage }) {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-gray-400 hover:text-white"
+          className="lg:hidden text-gray-400 hover:text-white"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,13 +113,13 @@ export default function Navbar({ language, setLanguage }) {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-gray-950 border-b border-gray-800 px-6 pb-4 flex flex-col gap-4">
-          {navLinks[language].map((link) => (
+        <div className="lg:hidden bg-gray-950/98 backdrop-blur border-b border-gray-800 px-6 pb-4 flex flex-col gap-3 max-h-[80vh] overflow-y-auto">
+          {allLinks.map((link, i) => (
             <a
-              key={link.href}
+              key={`${link.label}-${i}`}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="text-sm text-gray-300 hover:text-white"
+              className="text-sm text-gray-300 hover:text-white py-1"
             >
               {link.label}
             </a>
